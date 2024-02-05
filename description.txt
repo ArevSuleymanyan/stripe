@@ -1,0 +1,25 @@
+
+Task description:
+Create a base react app, that holds list of products,
+where each product has:
+- product name
+- product image
+- product price (in USD)
+Products can be hard coded in the code
+ (don't need to manage the quantity, we can assume we
+ always have them in the stock).
+
+The app needs to have two pages:
+- product list, lists the products from the stock
+- product details, a page with all the details for
+  the product and a custom form for entering payment
+  info (card number, card expiration date, cvc number)
+
+The app needs to be connected with a Stripe dev account.
+The end user needs to be able to place payments,
+that will be registered into the connected Stripe account.
+
+***
+The payment itself is not functional. As soon as I submit the payment,
+ the button changes from PAY to PROCESSING
+ and the flow does not continue, it stops there.
